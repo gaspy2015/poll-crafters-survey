@@ -14,7 +14,7 @@ export default function GuestLayout() {
           <div className="sm:mx-auto sm:w-full sm:max-w-sm">
             <img
               className="mx-auto h-20 w-auto"
-              src="../../public/brain-storm-website-favicon---color.png"
+              src="brain-storm-website-favicon---color.png"
               alt="Your Company"
             />
             

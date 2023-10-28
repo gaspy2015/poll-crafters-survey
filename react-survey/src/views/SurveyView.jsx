@@ -138,11 +138,13 @@ export default function SurveyView() {
         title={!id ? 'Create new Survey' : 'Update Survey'}
         buttons={(
             <div className='flex gap-2'>
+                {!id ? '' : 
                 <TButton color="green" href={`/survey/public/${survey.slug}`}>
                     <LinkIcon className="h-4 w-4 mr-2" />
                     <span className="pt-0.5">Public Link</span>
-                </TButton>
-                <TButton color="red" obClick={onDelete}>
+                </TButton> }
+                
+                <TButton color="red" onClick={onDelete}>
                     <TrashIcon className="h-4 w-4 mr-2" />
                     <span className="pt-0.5">Delete</span>
                 </TButton>

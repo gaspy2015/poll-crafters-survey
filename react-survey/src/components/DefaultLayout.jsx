@@ -61,7 +61,7 @@ export default function DefaultLayout() {
                     <div className="flex flex-shrink-0 items-center">
                       <img
                         className="h-10 w-10 cursor-pointer" 
-                        src="../../public/brain-storm-website-favicon---color.png"
+                        src="brain-storm-website-favicon---color.png"
                         alt="Poll Crafters"
                       />
                       <h2 className='text-xl font-bold ml-2 text-emerald-600 cursor-pointer'>Poll Crafters</h2>
